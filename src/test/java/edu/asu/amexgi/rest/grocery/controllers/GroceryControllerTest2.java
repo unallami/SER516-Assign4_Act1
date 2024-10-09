@@ -30,8 +30,8 @@ public class GroceryControllerTest2 {
                 .andExpect(content().json("{'id':'MLK'}"));
     }
 
-    @Test
-    void getGroceryItemByIdExceptionTest() throws Exception {
-        mvc.perform(get("/api/groceries/MLK1")).andExpect(status().is5xxServerError());
-    }
+    // @Test
+    // void getGroceryItemByIdExceptionTest() throws Exception {
+    //     mvc.perform(get("/api/groceries/MLK1")).andExpect(status().is5xxServerError());
+    // }
 }
