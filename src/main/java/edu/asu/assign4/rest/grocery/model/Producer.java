@@ -1,4 +1,4 @@
-package edu.asu.amexgi.rest.grocery.model;
+package edu.asu.assign4.rest.grocery.model;
 
 // This version will manually construct the bean with no annotation help
 public class Producer {

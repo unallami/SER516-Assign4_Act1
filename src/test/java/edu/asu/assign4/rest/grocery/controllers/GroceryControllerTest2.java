@@ -1,6 +1,6 @@
-package edu.asu.amexgi.rest.grocery.controllers;
+package edu.asu.assign4.rest.grocery.controllers;
 
-import edu.asu.amexgi.rest.grocery.services.GroceryServices;
+import edu.asu.assign4.rest.grocery.services.GroceryServices;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

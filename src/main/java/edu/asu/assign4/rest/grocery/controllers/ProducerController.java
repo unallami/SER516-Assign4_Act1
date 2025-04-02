@@ -1,4 +1,4 @@
-package edu.asu.amexgi.rest.grocery.controllers;
+package edu.asu.assign4.rest.grocery.controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import edu.asu.amexgi.rest.grocery.model.Producer;
-import edu.asu.amexgi.rest.grocery.services.ProducerServices;
+import edu.asu.assign4.rest.grocery.model.Producer;
+import edu.asu.assign4.rest.grocery.services.ProducerServices;
 
 @RestController
 @RequestMapping("/api/producers")
