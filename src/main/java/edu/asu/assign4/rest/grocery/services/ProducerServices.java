@@ -1,11 +1,11 @@
-package edu.asu.amexgi.rest.grocery.services;
+package edu.asu.assign4.rest.grocery.services;
 
 import static java.lang.Class.forName;
 
 import java.lang.reflect.Method;
 import java.util.List;
 
-import edu.asu.amexgi.rest.grocery.model.Producer;
+import edu.asu.assign4.rest.grocery.model.Producer;
 
 public interface ProducerServices {
 	public List<Producer> findAll() throws Exception;
@@ -19,7 +19,7 @@ public interface ProducerServices {
 	// normally we would implement a configurable logic to decide our service implementation
 	public static ProducerServices getProducerService() {
 		try {
-			String __theServiceImpl = "edu.asu.amexgi.rest.grocery.services.impl.SimpleProducerServicesImpl";
+			String __theServiceImpl = "edu.asu.assign4.rest.grocery.services.impl.SimpleProducerServicesImpl";
 			System.out.println("The service impl is " + __theServiceImpl);
 			Class<ProducerServices> implClass = (Class<ProducerServices>) forName(__theServiceImpl);
 			Method m = implClass.getMethod("getGroceriesService");
