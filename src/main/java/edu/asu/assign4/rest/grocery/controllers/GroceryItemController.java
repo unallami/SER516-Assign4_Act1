@@ -23,8 +23,6 @@ import edu.asu.assign4.rest.grocery.model.GroceryItem.GroceryType;
 import edu.asu.assign4.rest.grocery.services.GroceryServices;
 import edu.asu.assign4.rest.grocery.model.GroceryItem;
 
-import org.springframework.http.ResponseEntity;
-
 @RestController
 @RequestMapping("/api/groceries")
 public class GroceryItemController {
